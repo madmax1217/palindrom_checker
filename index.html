@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!--Maddie Timm Palindrome CHecker-->
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Palindrome Checker</title>
+    
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper"> <!--Main wrapper for my content-->
+            <div class="main-box">
+                <h1>Do You Want to Check a Palindrome?</h1><!--making this my title with an H1-->
+                <h3>Type in a word below and click "Check" to Check if it is a Palindrome!</h3><!--directions-->
+                <div class="item">
+                    <input type="text" id="txt" class="txt"><!--my input box-->
+                    <button class="btn" onclick="check()">Check it!</button><!--Button for submissions-->
+                    <input id="result"></input><!--This is where my message will show-->
+                </div>
+            </div>
+        </div>
+    
+        <script src="palindrome.js"></script><!--My JS connection-->
+    </body>
+    </html>
